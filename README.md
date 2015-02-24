@@ -7,3 +7,8 @@ A MEAN Stack Boilerplate.
 1. npm install
 2. npm start 
 3. Hit localhost in your browser
+
+<h4>Technical Details: </h4>
+* Node v0.12.0
+* Express 4
+* AngularJS v1.3.13
