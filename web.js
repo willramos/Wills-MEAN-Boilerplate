@@ -14,13 +14,12 @@ var methodOverride  = require('method-override');
 var session         = require('express-session');
 var app             = express();
 
+//Node v0.12.0
+var fs              = require('fs');
+var https           = require('https'), http = require('http');
+
 //Server Side Controllers
 var v100ConfigCtrl = require('./private/controller/configCtrl');
-
-
-var fs = require('fs');
-var https = require('https'),
-    http = require('http');
 
 //===========================================================================
 //                               CONFIGURATION
